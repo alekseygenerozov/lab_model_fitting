@@ -33,7 +33,7 @@ def plotFit(x,y,z,name):
 #    Pulls data from file and stores it in x,y
 #
 def grabData():
-    dat=np.genfromtxt('linfit.txt')
+    dat=np.genfromtxt('linFit.txt')
     x=dat[:,0]
     y=dat[:,1]
 
@@ -55,6 +55,7 @@ def hubble(x,h0):
 
 #Step 5:
 def SSR(x,y,h0):
+    return 0
 
 
 #
